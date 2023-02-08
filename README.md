@@ -1,6 +1,8 @@
+Visit site -> <a href="https://username.github.io" target="_blank">username.github.io</a>
+
 ## Built With
 
-<a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>'s portfolio template.<br/>
+This was built using <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>'s portfolio template.<br/>
 
 This project was built using these technologies.
 
