@@ -1,4 +1,4 @@
-Visit site -> <a href="https://username.github.io" target="_blank">username.github.io</a>
+Visit site ---> https://jakelawrence.github.io
 
 ## Built With
 
