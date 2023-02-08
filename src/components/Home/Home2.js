@@ -2,11 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -16,40 +12,48 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="green"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am a highly motivated and skilled software engineer with a strong background in computer science and experience in developing and
+              implementing scalable solutions in a fast-paced environment. I have a strong grasp on computer science fundamentals and the ability to
+              work well in a team setting.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              Fluent in{" "}
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="green">Javascript, Python and SQL. </b>
+              </i>
+              <br />
+              <br />I use technologies such as{" "}
+              <i>
+                <b className="green">React.js and Node.js</b>
+              </i>
+              <br />
+              <br />I have professional experience in deploying{" "}
+              <i>
+                <b className="green">REST APIs</b>
+              </i>{" "}
+              to a production environment using{" "}
+              <i>
+                <b className="green">Node.js</b>
+              </i>{" "}
+              and{" "}
+              <i>
+                <b className="green">Express.js </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Professional experience in designing{" "}
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
+                <b className="green">large, scalable databases</b>
+              </i>{" "}
+              using{" "}
+              <i>
+                <b className="green">MySQL </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -62,46 +66,21 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="green">connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
-                <a
-                  href="https://github.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
+                <a href="https://github.com/jakelawrence" target="_blank" rel="noreferrer" className="icon-colour  home-social-icons">
                   <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
+                <a href="https://www.linkedin.com/in/jakelawrence15/" target="_blank" rel="noreferrer" className="icon-colour  home-social-icons">
                   <FaLinkedinIn />
                 </a>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
+                <a href="https://www.instagram.com/jakelawrence" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
                   <AiFillInstagram />
                 </a>
               </li>

@@ -1,20 +1,12 @@
 html {
-  --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
-  );
+  --section-background-color: linear-gradient(to bottom left, rgba(17, 16, 16, 0.582), rgba(12, 8, 24, 0.904));
 
-  --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
-  );
+  --image-gradient: linear-gradient(to bottom left, rgba(17, 16, 16, 0.315), rgba(14, 22, 10, 0.418));
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #4e9f3d;
 }
 
-.purple {
+.green {
   color: var(--imp-text-color) !important;
 }
 
@@ -281,17 +273,17 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #d8e9a8;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #d8e9a8 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #d8e9a8 !important;
 }
 
 @media (max-width: 767px) {
@@ -518,14 +510,14 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #1e5128 !important;
+  border-color: #4e9f3d !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #4e9f3d !important;
+  border-color: #d8e9a8 !important;
 }
 .btn:focus {
   outline: none !important;
@@ -682,7 +674,7 @@ button:focus {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #8a49a8;
+  border: 2px solid #4e9f3d;
 }
 
 .like-item {
@@ -692,8 +684,8 @@ button:focus {
 }
 
 .like-btn {
-  background-color: #934cce5e !important;
-  border-color: #934cce5e !important;
+  background-color: #1e5128 !important;
+  border-color: #4e9f3d !important;
   padding: 0.25rem 0.98rem !important;
   border-radius: 5px !important;
   line-height: 1.4 !important;
@@ -702,8 +694,8 @@ button:focus {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #4e9f3d !important;
+  border-color: #d8e9a8 !important;
 }
 
 .animate-like {
@@ -727,7 +719,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: #1e5128 !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -735,8 +727,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #4e9f3d !important;
+  border-color: #d8e9a8 !important;
 }
 .fork-btn-inner::after {
   display: none !important;
