@@ -5,18 +5,20 @@ import { GoPrimitiveDot } from "react-icons/im";
 function AboutCard() {
   return (
     <Card className="quote-card-view">
-      <Card.Body>
+      <hr />
+      <Card.Body className="p-0">
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hello, my name is <span className="green">Jake Lawrence </span> and I am from <span className="green"> Southern California</span>
+            Hello, my name is <span className="green">Jake Lawrence </span> and I am a Software Engineer / Fullstack Developer from{" "}
+            <span className="green"> Southern California</span> !
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, some other activities that I love to do are...
           </p>
           <ul>
             <li className="about-activity">- DJing / Producing Music</li>
             <li className="about-activity">- Making lattes at home (dream is to open my own coffee shop)</li>
-            <li className="about-activity">- Travelling</li>
+            <li className="about-activity">- Travelling to new places</li>
           </ul>
         </blockquote>
       </Card.Body>
