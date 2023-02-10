@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e46f6888.css",
-    "main.js": "/static/js/main.3232b132.js",
+    "main.js": "/static/js/main.e07fdc8b.js",
     "static/js/787.17a7a8b4.chunk.js": "/static/js/787.17a7a8b4.chunk.js",
     "static/media/home-bg.jpg": "/static/media/home-bg.0d985d9535780f4d096d.jpg",
     "static/media/rock-paper-scissors-lizard-spock.png": "/static/media/rock-paper-scissors-lizard-spock.40f662f581e42d63147c.png",
@@ -16,11 +16,11 @@
     "static/media/pre.svg": "/static/media/pre.4e0f0fe8ab62a4646431.svg",
     "index.html": "/index.html",
     "main.e46f6888.css.map": "/static/css/main.e46f6888.css.map",
-    "main.3232b132.js.map": "/static/js/main.3232b132.js.map",
+    "main.e07fdc8b.js.map": "/static/js/main.e07fdc8b.js.map",
     "787.17a7a8b4.chunk.js.map": "/static/js/787.17a7a8b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e46f6888.css",
-    "static/js/main.3232b132.js"
+    "static/js/main.e07fdc8b.js"
   ]
 }
